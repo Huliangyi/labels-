@@ -1,10 +1,10 @@
 
 
-[1111getKVStore](#func-getkvstoretstring-kvoptions-where-t--singlekvstore)
+[案例一](#func-getkvstoretstring-kvoptions-where-t--singlekvstore)
 
-[2222getKVStore](#func-getkvstoretstring-kvoptions-where-t-singlekvstore)
+[案例二](#func-getkvstoretstring-kvoptions-where-t-singlekvstore)
 
-[3333getKVStore](./README1111.md#--singlekvstore)
+
 
 
 1111212
@@ -14,6 +14,9 @@
 ### func getKVStore\<T>(String, KVOptions) where T \<: SingleKVStore
 
 
+
+
+[案例三](./README1111.md#--singlekvstore)
 
 [111111](./README1111.md#--singlekvstore)
 
