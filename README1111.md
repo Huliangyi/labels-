@@ -5,10 +5,10 @@
 
 [^demo]: 第三个注脚,跳id[5.1](#custom-anchor)
 [^demo2]: 第四个注脚，跳链接 [官网](https://gitcode.com)。
-[^demo3]: 第五个注脚,跳H1[5.1](#5.1复用MindSpeed训练优化)
+[^demo3]: 第五个注脚,跳H1[5.1](#案例一id-custom-anchor)
 
 
-#5.1复用MindSpeed训练优化
+
 
 -----------------
 
