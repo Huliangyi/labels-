@@ -1,3 +1,53 @@
+111111
+# 注脚功能测试
+示例一[^1]，示例二[^no_te]。示例三[^demo]，示例四[^demo2].示例五[^demo3]，示例六[^demo4]
+
+[^1]: 第一个注脚。
+[^no_te]: 第二个注脚。
+
+[^demo]: 第三个注脚,跳id[5.1](#custom-anchor)
+[^demo2]: 第四个注脚，跳链接 [官网](https://gitcode.com)。
+[^demo3]:第五个注脚,跳H1[5.1](#案例一id-custom-anchor)
+[^demo4]: 这是一个多行注脚第一行
+第二行
+第三行
+
+空行后的第四行
+
+
+
+
+-----------------
+
+[gitcode能跳- GitHub能跳-案例一](#custom-anchor)
+
+[gitcode跳不了-GitHub能跳-案例二](#unique-id)
+
+[gitcode跳不了-GitHub能跳-案例三，两个杠](#案例三和四func-getkvstoretstring-kvoptions-where-t--singlekvstore)
+
+[gitcode能跳-GitHub跳不了-案例四，一个杠](#案例三和四func-getkvstoretstring-kvoptions-where-t-singlekvstore)
+
+<a id="custom-anchor"></a>
+## 案例一：id-custom-anchor
+
+<h2 id="unique-id">案例二：id-unique-id</h2>
+
+### 案例三和四func getKVStore\<T>(String, KVOptions) where T \<: SingleKVStore
+
+
+------------
+---分割线---------
+
+
+[案例三](./README1111.md#--singlekvstore)
+
+[111111](./README1111.md#--singlekvstore)
+
+
+
+
+# --singlekvstore
+
 ```mermaid
 graph TD
   A[Start] --> B{Decision}
@@ -11,7 +61,7 @@ graph TD
 ' "Bob()" -> Long as "This is very long"
 Long --> "Bob()" : ok
 ```
-
+[^1]: 此处使能的特性包含本文[5.1](## 案例一：id-custom-anchor)
 
 ```plantuml
 @startuml
